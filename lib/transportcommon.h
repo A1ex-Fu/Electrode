@@ -65,7 +65,7 @@ public:
         return SendMessageInternal(src, dstAddr, m, false);
     }
 
-    virtual bool SendMessageToReplica(TransportReceiver *src, int replicaIdx, const Message &m,
+    virtual bool  (TransportReceiver *src, int replicaIdx, const Message &m,
                                       const void *my_buf = NULL) {
         const specpaxos::Configuration *cfg = configurations[src];
         ASSERT(cfg != NULL);
