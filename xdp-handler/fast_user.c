@@ -281,8 +281,8 @@ void read_config() {
 	const char *eths[FAST_REPLICA_MAX] = {"9c:dc:71:5b:32:d1",
 										"9c:dc:71:5d:57:f1", 
 										"9c:dc:71:5d:30:51", 
-										"", 
-										""}; 
+										"9c:dc:71:5d:41:51", 
+										"9c:dc:71:5d:12:11"}; 
 
 	fp = fopen("../config.txt", "r");
 	fscanf(fp, "%s", buff); // must be 'f'
