@@ -284,7 +284,9 @@ void read_config() {
 										"9c:dc:71:5d:41:51", 
 										"9c:dc:71:5d:12:11",
 										"9c:dc:71:5c:ef:b1",
-										"9c:dc:71:56:af:a5"
+										"9c:dc:71:56:af:a5",
+										"9c:dc:71:49:a8:81",
+										"9c:dc:71:5e:2f:e1",
 									}; 
 
 	fp = fopen("../config.txt", "r");
