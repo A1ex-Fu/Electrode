@@ -282,7 +282,10 @@ void read_config() {
 										"9c:dc:71:5d:57:f1", 
 										"9c:dc:71:5d:30:51", 
 										"9c:dc:71:5d:41:51", 
-										"9c:dc:71:5d:12:11"}; 
+										"9c:dc:71:5d:12:11",
+										"9c:dc:71:5c:ef:b1",
+										"9c:dc:71:56:af:a5"
+									}; 
 
 	fp = fopen("../config.txt", "r");
 	fscanf(fp, "%s", buff); // must be 'f'
