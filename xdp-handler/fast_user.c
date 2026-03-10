@@ -278,15 +278,9 @@ void read_config() {
 	char str[INET_ADDRSTRLEN];
 	struct paxos_configure conf;
 
-	const char *eths[FAST_REPLICA_MAX] = {"9c:dc:71:5b:32:d1",
-										"9c:dc:71:5d:57:f1", 
-										"9c:dc:71:5d:30:51", 
-										"9c:dc:71:5d:41:51", 
-										"9c:dc:71:5d:12:11",
-										"9c:dc:71:5c:ef:b1",
-										"9c:dc:71:56:af:a5",
-										"9c:dc:71:49:a8:81",
-										"9c:dc:71:5e:2f:e1",
+	const char *eths[FAST_REPLICA_MAX] = {"9c:dc:71:5d:21:91",
+										"9c:dc:71:5d:40:f1", 
+										"9c:dc:71:5b:32:d1"
 									}; 
 
 	fp = fopen("../config.txt", "r");
